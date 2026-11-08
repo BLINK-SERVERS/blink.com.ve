@@ -29,7 +29,9 @@
   <link rel="icon" href="assets/favicon.png" sizes="32x32" type="image/png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="assets/estilos.css">
+  <!-- La caché de la CDN guarda estos archivos 4 h por URL: al editarlos hay
+       que cambiar el número de versión para que el cambio llegue a todos. -->
+  <link rel="stylesheet" href="assets/estilos.css?v=20261108">
   <noscript><style>.lp-acordeon__bandeja{grid-template-rows:1fr}</style></noscript>
 </head>
 <body>
@@ -577,6 +579,6 @@
     </footer>
   </div>
 
-  <script src="assets/app.js" defer></script>
+  <script src="assets/app.js?v=20261108" defer></script>
 </body>
 </html>
