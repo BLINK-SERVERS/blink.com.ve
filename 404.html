@@ -5,6 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>No encontramos esa página — Blink</title>
   <meta name="theme-color" content="#007AFF">
+  <script>
+    /* Las rutas del POS conservan su enlace corto: /app/* y /escaner viven ahora en pos.blink.com.ve. */
+    (function () {
+      var ruta = location.pathname;
+      if (/^\/(app|escaner)(\/|$)/.test(ruta)) {
+        location.replace("https://pos.blink.com.ve" + ruta + location.search + location.hash);
+      }
+    })();
+  </script>
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <style>
     :root { --azul: #007AFF; --tinta: #1d1d1f; --blanco: #FFFEFB; }
