@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>No encontramos esa página — Blink</title>
-  <meta name="theme-color" content="#007AFF">
+  <meta name="theme-color" content="#f2f2f7">
   <script>
     /* Las rutas del POS conservan su enlace corto: /app/* y /escaner viven ahora en pos.blink.com.ve. */
     (function () {
@@ -16,22 +16,22 @@
   </script>
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <style>
-    :root { --azul: #007AFF; --tinta: #1d1d1f; --blanco: #FFFEFB; }
+    :root { --azul: #007AFF; --tinta: #1d1d1f; --tinta-2: #6e6e6e; --fondo: #f2f2f7; }
     * { box-sizing: border-box; }
     body {
       margin: 0; min-height: 100vh; display: grid; place-items: center;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Inter, Arial, sans-serif;
-      background: radial-gradient(120% 90% at 50% -10%, #3d9bff 0%, rgba(61,155,255,0) 60%), linear-gradient(180deg, #007AFF, #004ea8);
-      color: var(--blanco); text-align: center; padding: 32px;
+      font-family: "SF Pro Text", "SF Pro Display", -apple-system, BlinkMacSystemFont, Inter, "Helvetica Neue", Arial, sans-serif;
+      background: var(--fondo); color: var(--tinta); text-align: center; padding: 32px;
     }
-    h1 { font-size: clamp(2rem, 6vw, 3.4rem); letter-spacing: -0.03em; margin: 0 0 12px; }
-    p { margin: 0 0 28px; opacity: .85; }
+    main { max-width: 620px; }
+    h1 { font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.05; letter-spacing: -0.03em; margin: 0 0 12px; }
+    p { margin: 0 auto 28px; max-width: 30em; font-size: 1.0625rem; line-height: 1.5; color: var(--tinta-2); }
     a {
-      display: inline-block; padding: 13px 26px; border-radius: 999px;
-      background: var(--blanco); color: #0062cc; font-weight: 600; text-decoration: none;
+      display: inline-block; padding: 13px 26px; border-radius: 999px; min-height: 44px;
+      background: var(--azul); color: #fff; font-weight: 600; text-decoration: none;
     }
-    a:focus-visible { outline: 3px solid var(--blanco); outline-offset: 3px; }
-    svg { width: 180px; height: auto; margin: 0 auto 34px; display: block; }
+    a:focus-visible { outline: 3px solid var(--azul); outline-offset: 3px; }
+    svg { width: 168px; height: auto; margin: 0 auto 34px; display: block; color: var(--azul); }
   </style>
 </head>
 <body>

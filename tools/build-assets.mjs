@@ -57,19 +57,13 @@ function og() {
   const anchoLockup = 560;
   const k = anchoLockup / 869;
   const x = (1200 - anchoLockup) / 2;
-  const y = 208;
+  const y = 196;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <defs>
-    <linearGradient id="fondo" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1E90FF"/>
-      <stop offset="0.55" stop-color="${AZUL}"/>
-      <stop offset="1" stop-color="#0062CC"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="630" fill="url(#fondo)"/>
-  <g transform="translate(${x} ${y}) scale(${k.toFixed(5)})" color="${BLANCO}">${LOCKUP}</g>
-  <text x="600" y="470" text-anchor="middle" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="${BLANCO}" fill-opacity="0.95">Blink Pay · Blink POS</text>
-  <text x="600" y="520" text-anchor="middle" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="${BLANCO}" fill-opacity="0.72">Un ecosistema para moverte y cobrar</text>
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <rect x="56" y="56" width="1088" height="518" rx="28" fill="#f2f2f7"/>
+  <g transform="translate(${x} ${y}) scale(${k.toFixed(5)})" color="${AZUL}">${LOCKUP}</g>
+  <text x="600" y="466" text-anchor="middle" font-family="'SF Pro Display', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" letter-spacing="-0.5" fill="#1d1d1f">Blink Pay · Blink POS</text>
+  <text x="600" y="512" text-anchor="middle" font-family="'SF Pro Text', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="23" fill="#6e6e6e">Muévete y cobra. Con un solo Blink.</text>
 </svg>
 `;
 }

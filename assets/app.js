@@ -1,34 +1,34 @@
-// Blink — interacciones mínimas: barra translúcida y aparición al hacer scroll.
-
-const barra = document.getElementById("barra");
-const reducirMovimiento = window.matchMedia("(prefers-reduced-motion: reduce)");
-
-function ajustarBarra() {
-  if (!barra) return;
-  barra.classList.toggle("barra--transparente", window.scrollY < 24);
-}
-
-ajustarBarra();
-window.addEventListener("scroll", ajustarBarra, { passive: true });
+// Blink — interacciones de la landing: el año del pie y el acordeón de preguntas.
 
 const anio = document.getElementById("anio");
 if (anio) anio.textContent = String(new Date().getFullYear());
 
-const pendientes = document.querySelectorAll("[data-revelar]");
+const respuestas = [...document.querySelectorAll(".lp-acordeon__boton")].map(
+  (boton) => ({
+    boton,
+    item: boton.closest(".lp-acordeon__item"),
+    panel: document.getElementById(boton.getAttribute("aria-controls")),
+  }),
+);
 
-if (reducirMovimiento.matches || !("IntersectionObserver" in window)) {
-  pendientes.forEach((el) => el.classList.add("visible"));
-} else {
-  const observador = new IntersectionObserver(
-    (entradas) => {
-      for (const entrada of entradas) {
-        if (entrada.isIntersecting) {
-          entrada.target.classList.add("visible");
-          observador.unobserve(entrada.target);
-        }
-      }
-    },
-    { threshold: 0.12, rootMargin: "0px 0px -40px 0px" },
-  );
-  pendientes.forEach((el) => observador.observe(el));
+function cerrar(todo) {
+  for (const { boton, item, panel } of todo) {
+    boton.setAttribute("aria-expanded", "false");
+    item.classList.remove("lp-acordeon__item--abierto");
+    if (panel) panel.inert = true;
+  }
+}
+
+cerrar(respuestas);
+
+for (const abierta of respuestas) {
+  abierta.boton.addEventListener("click", () => {
+    const yaAbierta = abierta.boton.getAttribute("aria-expanded") === "true";
+    cerrar(respuestas);
+    if (yaAbierta) return;
+
+    abierta.boton.setAttribute("aria-expanded", "true");
+    abierta.item.classList.add("lp-acordeon__item--abierto");
+    if (abierta.panel) abierta.panel.inert = false;
+  });
 }
