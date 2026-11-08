@@ -300,6 +300,14 @@ a {
   height: 26px;
 }
 
+/* El lockup de POS es solo texto y su recuadro va ceñido a la marca (192,85 u
+   de alto), mientras que el de Pay mide 321 u porque reserva sitio a las ondas.
+   Ambos trazados usan la misma unidad de glifo, así que la paridad de altura de
+   mayúsculas se logra igualando la escala: 26 × 192,85 / 321 = 15,62 px. */
+.lp-boton__marca--pos {
+  height: 15.62px;
+}
+
 .lp-boton--marca.lp-boton--fantasma {
   background: var(--fondo-alt);
   color: var(--acento);
