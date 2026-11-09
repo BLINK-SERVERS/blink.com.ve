@@ -1,7 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#ffffff"/>
-  <rect x="56" y="56" width="1088" height="518" rx="28" fill="#f2f2f7"/>
-  <g transform="translate(320 196) scale(0.64442)" color="#007AFF"><g transform="translate(-0 193.14)" fill="currentColor">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1200" height="630" viewBox="0 0 1200 630" version="1.1" shape-rendering="geometricPrecision">
+  <title>Blink — imagen para compartir del ecosistema</title>
+  <desc>Composición 1200×630 al estilo de la referencia autorizada de Apple: campo gris claro, lockup «Blink» aprobado arriba y los dos bezels de producto —un iPhone 15 Pro con la billetera Blink Pay y un iPad Pro horizontal con Blink POS— apoyados sobre la misma línea de base. Los trazos del lockup y del arte de la tarjeta se reproducen tal cual de los maestros; la geometría de los bezels sigue las proporciones reales de los dispositivos (393×852 pt radio 47 con Dynamic Island; 1366×1024 pt el iPad).</desc>
+  <defs>
+    <linearGradient id="campo-og" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f5f5f7"/>
+    </linearGradient>
+    <radialGradient id="luz-og" cx="0.5" cy="0.62" r="0.62">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titanio-og" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0%" stop-color="#3a3a3c"/><stop offset="40%" stop-color="#1c1c1e"/><stop offset="100%" stop-color="#18181a"/>
+    </linearGradient>
+    <clipPath id="recorte-tarjeta-og"><rect width="1011" height="638" rx="40"/></clipPath>
+    <clipPath id="recorte-pantalla-iphone-og"><rect x="10" y="10" width="373" height="832" rx="37"/></clipPath>
+    <clipPath id="recorte-pantalla-ipad-og"><rect width="1366" height="1024" rx="55"/></clipPath>
+    <filter id="sombra-og" x="-30%" y="-25%" width="160%" height="165%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#1d1d1f" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <g inkscape:groupmode="layer" inkscape:label="Fondo" id="capa-fondo">
+    <rect width="1200" height="630" fill="url(#campo-og)"/>
+    <rect width="1200" height="630" fill="url(#luz-og)"/>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="Lockup aprobado" id="capa-lockup" transform="translate(470 44) scale(0.3)" color="#007AFF"><g transform="translate(-0 193.14)" fill="currentColor">
   <path d="M92.42 0C131.74 0 159.77 -23.82 159.77 -57.06C159.77 -75.42 146.25 -89.19 127.15 -93.28L127.27 -94.15C151.46 -98.99 168.7 -116.85 168.7 -140.55C168.7 -162.5 150.35 -179 116.48 -179H38.08L0 0ZM76.29 -149.48H100.35C115.36 -149.48 123.18 -142.78 123.18 -132.23C123.18 -118.22 111.27 -108.05 93.28 -108.05H67.61ZM51.48 -32.25 61.28 -78.65H88.69C105.56 -78.65 114.25 -71.33 114.25 -59.17C114.25 -43.04 101.59 -32.25 82 -32.25Z"/>
   <path d="M158.52 0H201.31L241.48 -188.8H198.68Z"/>
   <path d="M278.02 -150.59C290.18 -150.59 299.73 -160.27 299.73 -171.81C299.73 -183.47 290.18 -193.14 278.02 -193.14C265.86 -193.14 256.31 -183.47 256.31 -171.81C256.31 -160.27 265.86 -150.59 278.02 -150.59ZM219.97 0H262.76L291.54 -135.09H248.74Z"/>
@@ -13,6 +34,104 @@
   <path d="M 436 182 A 68 68 0 1 1 299.99 182 A 68 68 0 1 1 436 182 Z"/>
   <path d="M 212 286 H 300 C 331.55 286 340.42 286 337.5 314 C 332.064081 366.125250 298 398 256 398 C 214 398 179.935919 366.125250 174.5 314 C 171.58 286 180.45 286 212 286 Z"/>
 </g></g>
-  <text x="600" y="466" text-anchor="middle" font-family="'SF Pro Display', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" letter-spacing="-0.5" fill="#1d1d1f">Blink Pay · Blink POS</text>
-  <text x="600" y="512" text-anchor="middle" font-family="'SF Pro Text', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="23" fill="#6e6e6e">Muévete y cobra. Con un solo Blink.</text>
+  <g inkscape:groupmode="layer" inkscape:label="iPad Pro" id="capa-ipad">
+    <g id="ipad-og" filter="url(#sombra-og)" transform="translate(204 150.31) scale(0.38)">
+    <rect width="1466" height="1124" rx="100" fill="url(#titanio-og)"/>
+    <rect x="1.5" y="1.5" width="1463" height="1121" rx="98.5" fill="none" stroke="rgba(255,255,255,0.07)"/>
+    <circle cx="733" cy="25" r="10" fill="#0a0a0c"/>
+    <rect x="50" y="50" width="1366" height="1024" rx="55" fill="#f2f2f7"/>
+    <g clip-path="url(#recorte-pantalla-ipad-og)" transform="translate(50 50)">
+      <text x="60" y="80" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="44" font-weight="700" fill="#1d1d1f">Blink POS</text>
+      <rect x="1128" y="42" width="178" height="46" rx="23" fill="#e4f7ea"/>
+      <circle cx="1152" cy="65" r="7" fill="#34c759"/>
+      <text x="1168" y="74" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="24" font-weight="600" fill="#1d1d1f">Caja abierta</text>
+      <text x="60" y="172" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="30" fill="#6e6e6e">Total a cobrar</text>
+      <text x="60" y="272" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="104" font-weight="700" letter-spacing="-3" fill="#1d1d1f">Bs 1.500,00</text>
+      <text x="60" y="316" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="28" fill="#6e6e6e">Dólares y bolívares a tasa BCV</text>
+              <text x="60" y="406" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="34" fill="#1d1d1f">Café con leche</text>
+        <text x="1306" y="406" text-anchor="end" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="34" font-weight="600" fill="#1d1d1f">Bs 320,00</text>
+        <path d="M 60 432 H 1306" stroke="rgba(60,60,67,0.12)" stroke-width="1.5"/>
+        <text x="60" y="498" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="34" fill="#1d1d1f">Pan de queso ×2</text>
+        <text x="1306" y="498" text-anchor="end" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="34" font-weight="600" fill="#1d1d1f">Bs 180,00</text>
+        <path d="M 60 524 H 1306" stroke="rgba(60,60,67,0.12)" stroke-width="1.5"/>
+        <text x="60" y="590" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="34" fill="#1d1d1f">Jugo natural</text>
+        <text x="1306" y="590" text-anchor="end" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="34" font-weight="600" fill="#1d1d1f">Bs 1.000,00</text>
+        <path d="M 60 616 H 1306" stroke="rgba(60,60,67,0.12)" stroke-width="1.5"/>
+      <rect x="60" y="668" width="1246" height="110" rx="26" fill="#007AFF"/>
+      <text x="683" y="738" text-anchor="middle" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="44" font-weight="600" fill="#FFFEFB">Cobrar</text>
+      <path d="M 0 872 H 1366" stroke="rgba(60,60,67,0.12)" stroke-width="1.5"/>
+      <g font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="30" text-anchor="middle">
+        <text x="200" y="938" fill="#007AFF" font-weight="600">Vender</text>
+        <text x="560" y="938" fill="#86868b">Caja</text>
+        <text x="900" y="938" fill="#86868b">Productos</text>
+        <text x="1200" y="938" fill="#86868b">Informes</text>
+      </g>
+      <rect x="505.5" y="988" width="355" height="12" rx="6" fill="#1d1d1f" opacity="0.85"/>
+    </g>
+  </g>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="iPhone 15 Pro" id="capa-iphone">
+    <g id="iphone-og" filter="url(#sombra-og)" transform="translate(784 112.4) scale(0.54)">
+    <g fill="#2a2a2c">
+      <rect x="-3" y="153" width="3" height="47" rx="1.5"/>
+      <rect x="-3" y="230" width="3" height="60" rx="1.5"/>
+      <rect x="-3" y="307" width="3" height="60" rx="1.5"/>
+      <rect x="393" y="256" width="3" height="94" rx="1.5"/>
+    </g>
+    <rect width="393" height="852" rx="47" fill="url(#titanio-og)"/>
+    <rect x="1" y="1" width="391" height="850" rx="46" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+    <rect x="10" y="10" width="373" height="832" rx="37" fill="#f2f2f7"/>
+    <g clip-path="url(#recorte-pantalla-iphone-og)">
+      <text x="36" y="46" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d1d1f">9:41</text>
+      <g fill="#1d1d1f">
+        <rect x="316" y="40" width="3" height="5" rx="1"/><rect x="321" y="37.5" width="3" height="7.5" rx="1"/>
+        <rect x="326" y="35" width="3" height="10" rx="1"/><rect x="331" y="32.5" width="3" height="12.5" rx="1"/>
+      </g>
+      <g fill="none" stroke="#1d1d1f" stroke-width="1.8" stroke-linecap="round">
+        <path d="M 342 40 A 7.6 7.6 0 0 1 352.6 40"/><path d="M 344.6 43 A 4 4 0 0 1 350 43"/>
+      </g>
+      <circle cx="347.3" cy="45.6" r="1.4" fill="#1d1d1f"/>
+      <rect x="362" y="36" width="24" height="11.5" rx="3.2" fill="none" stroke="#1d1d1f" stroke-opacity="0.35"/>
+      <rect x="364" y="38" width="19" height="7.5" rx="1.6" fill="#1d1d1f"/>
+      <g transform="translate(24 76) scale(0.34)">
+      <rect width="1011" height="638" rx="40" fill="#007AFF"/>
+      <g clip-path="url(#recorte-tarjeta-og)" fill="#FFFEFB" fill-opacity="0.5" transform="translate(-442.5 -425) scale(3)">
+        <path d="M 122 164 H 178 C 198 164 224 164 224 198 C 224 232 198 232 178 232 H 122 C 102 232 76 232 76 198 C 76 164 102 164 122 164 Z"/><path d="M 436 182 A 68 68 0 1 1 299.99 182 A 68 68 0 1 1 436 182 Z"/><path d="M 212 286 H 300 C 331.55 286 340.42 286 337.5 314 C 332.064081 366.125250 298 398 256 398 C 214 398 179.935919 366.125250 174.5 314 C 171.58 286 180.45 286 212 286 Z"/>
+      </g>
+    </g>
+      <g fill="#FFFEFB" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif">
+        <text x="44" y="150" font-size="30" font-weight="700"><tspan font-size="15" font-weight="600">Bs </tspan>1.500</text>
+        <text x="44" y="176" font-size="15" font-weight="600" opacity="0.9">3 pasajes</text>
+        <text x="349" y="276" text-anchor="end" font-size="13" font-weight="600" letter-spacing="1.2" opacity="0.85">MARÍA PÉREZ</text>
+      </g>
+      <rect x="139" y="310" width="115" height="30" rx="15" fill="#e3e3e8"/>
+      <text x="196.5" y="330" text-anchor="middle" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="14" fill="#1d1d1f">Ver reverso</text>
+      <text x="24" y="386" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="20" font-weight="700" fill="#1d1d1f">Últimos movimientos</text>
+      <rect x="16" y="402" width="361" height="246" rx="20" fill="#ffffff"/>
+              <text x="32" y="438" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d1d1f">Pasaje en la línea</text>
+        <text x="32" y="460" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="13" fill="#86868b">Hoy · 07:42</text>
+        <text x="361" y="449" text-anchor="end" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#1d1d1f">−500</text>
+        <text x="32" y="520" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d1d1f">Pago Móvil aprobado</text>
+        <text x="32" y="542" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="13" fill="#86868b">Ayer · 06:20</text>
+        <text x="361" y="531" text-anchor="end" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#008000">+1.000</text>
+        <path d="M 32 484 H 361" stroke="rgba(60,60,67,0.12)" stroke-width="1"/>
+        <text x="32" y="602" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d1d1f">Recarga en taquilla</text>
+        <text x="32" y="624" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="13" fill="#86868b">05-nov · 03:03</text>
+        <text x="361" y="613" text-anchor="end" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#008000">+2.000</text>
+        <path d="M 32 566 H 361" stroke="rgba(60,60,67,0.12)" stroke-width="1"/>
+      <path d="M 0 780 H 393" stroke="rgba(60,60,67,0.12)" stroke-width="1"/>
+      <g font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="12" text-anchor="middle">
+        <text x="49" y="806" fill="#007AFF">Inicio</text>
+        <text x="147" y="806" fill="#86868b">Movimientos</text>
+        <text x="246" y="806" fill="#86868b">Recargar</text>
+        <text x="344" y="806" fill="#86868b">Perfil</text>
+      </g>
+    </g>
+    <rect x="136.8" y="18" width="119.4" height="36.6" rx="18.3" fill="#000000"/>
+    <rect x="133" y="831" width="127" height="5" rx="2.5" fill="#1d1d1f" opacity="0.85"/>
+  </g>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="Mensaje" id="capa-mensaje">
+    <text x="600" y="612" text-anchor="middle" font-family="'SF Pro Display','SF Pro Text',-apple-system,'Helvetica Neue',Inter,Arial,sans-serif" font-size="22" fill="#6e6e6e">Muévete y cobra. Con un solo Blink.</text>
+  </g>
 </svg>

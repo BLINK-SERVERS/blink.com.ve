@@ -32,7 +32,7 @@
        nunca la ofrece como app instalable. Las apps son pay. y pos. -->
   <!-- La caché de la CDN guarda estos archivos 4 h por URL: al editarlos hay
        que cambiar el número de versión para que el cambio llegue a todos. -->
-  <link rel="stylesheet" href="assets/estilos.css?v=20261108b">
+  <link rel="stylesheet" href="assets/estilos.css?v=20261108c">
   <noscript><style>.lp-acordeon__bandeja{grid-template-rows:1fr}</style></noscript>
 </head>
 <body>
@@ -164,8 +164,13 @@
 
           <div class="lp-hero__hardware">
             <div class="lp-duo">
-              <div class="lp-telefono" role="img" aria-label="Teléfono con la billetera Blink Pay y el saldo de la tarjeta">
+              <div class="lp-telefono" role="img" aria-label="iPhone mostrando la billetera Blink Pay con el saldo de la tarjeta">
                 <div class="lp-telefono__marco">
+                  <span class="lp-telefono__boton lp-telefono__boton--accion" aria-hidden="true"></span>
+                  <span class="lp-telefono__boton lp-telefono__boton--vol-up" aria-hidden="true"></span>
+                  <span class="lp-telefono__boton lp-telefono__boton--vol-down" aria-hidden="true"></span>
+                  <span class="lp-telefono__boton lp-telefono__boton--power" aria-hidden="true"></span>
+                  <span class="lp-telefono__camara" aria-hidden="true"></span>
                   <span class="lp-telefono__isla"></span>
                   <div class="lp-telefono__pantalla">
                     <div class="lp-mini">
@@ -234,8 +239,9 @@
                 </div>
               </div>
 
-              <div class="lp-caja" role="img" aria-label="Pantalla de Blink POS con el total de una venta y el botón de cobrar">
+              <div class="lp-caja" role="img" aria-label="iPad Pro horizontal con Blink POS mostrando el total de una venta y el botón de cobrar">
                 <div class="lp-caja__marco">
+                  <span class="lp-caja__camara" aria-hidden="true"></span>
                   <div class="lp-caja__pantalla">
                     <div class="lp-caja__ui">
                       <div class="lp-caja__barra">
@@ -259,10 +265,11 @@
                       </div>
                     </div>
                   </div>
+                  <span class="lp-caja__barra-home" aria-hidden="true"></span>
                 </div>
               </div>
             </div>
-            <p class="lp-nota-visual">Pantallas de Blink Pay y Blink POS con datos de ejemplo.</p>
+            <p class="lp-nota-visual">iPhone e iPad Pro con datos de ejemplo.</p>
           </div>
         </div>
       </section>
@@ -355,8 +362,9 @@
           <h2 class="lp-titulo-seccion" id="pos-titulo">Cobra en tu negocio, sin fricción.</h2>
           <div class="lp-fila lp-fila--invertida">
             <div class="lp-fila__visual">
-              <div class="lp-caja lp-caja--fila" role="img" aria-label="Pantalla de Blink POS con el total de una venta y el botón de cobrar">
+              <div class="lp-caja lp-caja--fila" role="img" aria-label="iPad Pro horizontal con Blink POS mostrando el total de una venta y el botón de cobrar">
                 <div class="lp-caja__marco">
+                  <span class="lp-caja__camara" aria-hidden="true"></span>
                   <div class="lp-caja__pantalla">
                     <div class="lp-caja__ui">
                       <div class="lp-caja__barra">
@@ -380,9 +388,39 @@
                       </div>
                     </div>
                   </div>
+                  <span class="lp-caja__barra-home" aria-hidden="true"></span>
                 </div>
               </div>
               <p class="lp-dominio">pos.blink.com.ve</p>
+              <div class="lp-mac" role="img" aria-label="MacBook Pro con el informe del día de Blink POS">
+                <div class="lp-mac__tapa">
+                  <span class="lp-mac__notch" aria-hidden="true"></span>
+                  <div class="lp-mac__pantalla">
+                    <div class="lp-caja__ui lp-mac__ui">
+                      <div class="lp-caja__barra">
+                        <span class="lp-caja__nombre">Blink POS · Informes</span>
+                        <span class="lp-caja__estado"><i></i>Hoy</span>
+                      </div>
+                      <p class="lp-caja__rotulo">Ventas del día</p>
+                      <p class="lp-caja__total">Bs 18.420,00</p>
+                      <p class="lp-caja__tasa">USD 20,89 · Tasa BCV 882,00</p>
+                      <ul class="lp-caja__lineas">
+                        <li><span>34 tickets cobrados</span><b>Bs 15.800,00</b></li>
+                        <li><span>Blink Pay</span><b>Bs 9.400,00</b></li>
+                        <li><span>Pago Móvil</span><b>Bs 6.120,00</b></li>
+                        <li><span>Efectivo</span><b>Bs 2.900,00</b></li>
+                      </ul>
+                      <div class="lp-caja__tabs">
+                        <span>Vender</span>
+                        <span>Caja</span>
+                        <span>Productos</span>
+                        <span class="activa">Informes</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="lp-mac__base" aria-hidden="true"></span>
+              </div>
             </div>
             <div class="lp-fila__texto">
               <h3 class="lp-subtitulo">El punto de venta del comercio.</h3>
